@@ -3,7 +3,7 @@ from node:16
 copy . /app
 workdir /app
 
-run yarn
+run yarn -D
 run yarn build
 
 expose 9000
